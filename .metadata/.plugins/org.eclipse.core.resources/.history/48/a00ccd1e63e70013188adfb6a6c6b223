@@ -1,0 +1,49 @@
+  
+import java.awt.Dimension;
+import java.awt.Graphics;
+import java.awt.*;
+
+import javax.swing.*;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+public class DemoImageTest {
+
+  public static void main(String[] args) {
+    ImagePanel panel = new ImagePanel(new ImageIcon("Images/img.png").getImage());
+
+    JFrame frame = new JFrame();
+    JPanel jfrm=new JPanel(new BorderLayout());
+    jfrm.add(panel,BorderLayout.CENTER);
+    jfrm.setPreferredSize(new Dimension(300,300));
+    frame.getContentPane().add(jfrm);
+    frame.pack();
+    frame.setVisible(true);
+  }
+}
+
+class ImagePanel extends JPanel {
+
+  private Image img;
+
+  public ImagePanel(String img) {
+    this(new ImageIcon(img).getImage());
+  }
+
+  public ImagePanel(Image img) {
+    this.img = img;
+    Dimension size = new Dimension(img.getWidth(null), img.getHeight(null));
+    setPreferredSize(size);
+    setMinimumSize(size);
+    setMaximumSize(size);
+    setSize(size);
+    setLayout(null);
+  }
+
+  public void paintComponent(Graphics g) {
+    g.drawImage(img, 0, 0, null);
+  }
+
+}
+
+   

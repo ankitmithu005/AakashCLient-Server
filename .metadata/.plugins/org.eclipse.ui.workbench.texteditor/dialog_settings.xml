@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item value="289" key="DIALOG_WIDTH"/>
+		<item value="309" key="DIALOG_WIDTH"/>
 		<item value="184" key="DIALOG_Y_ORIGIN"/>
+		<item value="480" key="DIALOG_HEIGHT"/>
 		<item value="803" key="DIALOG_X_ORIGIN"/>
-		<item value="460" key="DIALOG_HEIGHT"/>
 		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="true" key="wrap"/>
-		<item value="false" key="casesensitive"/>
 		<item value="false" key="isRegEx"/>
+		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
-		<item value="ScrollPane" key="selection"/>
+		<item value="Image" key="selection"/>
 		<list key="findhistory">
+			<item value="image"/>
+			<item value="ImagePanel"/>
 			<item value="scrollpane"/>
 			<item value="actionperformed"/>
 			<item value="serverframe"/>
 			<item value="a"/>
 			<item value="sendTextRequest"/>
 			<item value="sendDoubtText"/>
-			<item value="send_text_doubt"/>
-			<item value="submit"/>
 		</list>
 		<list key="replacehistory">
 		</list>

@@ -71,10 +71,10 @@ class Server
 		new Student("Pankaj Modi","123.123.123","/home/lavish/Server_ClassRoom_Interaction/Server_ClassRoom_Interaction/Images/a.jpg","Computer Graphics","audio");
 		new Student("Rahul Jain","123.123.123","/home/lavish/Server_ClassRoom_Interaction/Server_ClassRoom_Interaction/Images/a.jpg","Computer Graphics","audio");
 		new Student("Janit KK","123.123.123","/home/lavish/Server_ClassRoom_Interaction/Server_ClassRoom_Interaction/Images/a.jpg","Computer Graphics","audio");
-		
-		new Student("Lavish Kothari","123.123.123","/home/lavish/Server_ClassRoom_Interaction/Server_ClassRoom_Interaction/Images/a.jpg","Exceptional handling null pointer exception","text");
-		new Student("b","123.123.123","/home/lavish/Server_ClassRoom_Interaction/Server_ClassRoom_Interaction/Images/a.jpg","Computer Graphics","text");
-		new Student("c","123.123.123","/home/lavish/Server_ClassRoom_Interaction/Server_ClassRoom_Interaction/Images/a.jpg","Computer Graphics","text");
+		*/
+		new Student("Lavish Kothari","123.123.123","/home/lavish/Server_ClassRoom_Interaction/Server_ClassRoom_Interaction/Images/a.jpg","Exceptional handling null pointer exception","Doubt text","text");
+		new Student("b","123.123.123","/home/lavish/Server_ClassRoom_Interaction/Server_ClassRoom_Interaction/Images/a.jpg","Computer Graphics","Doubt Text","text");
+	/*	new Student("c","123.123.123","/home/lavish/Server_ClassRoom_Interaction/Server_ClassRoom_Interaction/Images/a.jpg","Computer Graphics","text");
 		new Student("d","123.123.123","/home/lavish/Server_ClassRoom_Interaction/Server_ClassRoom_Interaction/Images/a.jpg","Computer Graphics","text");
 		new Student("e","123.123.123","/home/lavish/Server_ClassRoom_Interaction/Server_ClassRoom_Interaction/Images/a.jpg","Computer Graphics","text");
 		new Student("f","123.123.123","/home/lavish/Server_ClassRoom_Interaction/Server_ClassRoom_Interaction/Images/a.jpg","Computer Graphics","text");
@@ -88,7 +88,7 @@ class Server
 		new Student("n","123.123.123","/home/lavish/Server_ClassRoom_Interaction/Server_ClassRoom_Interaction/Images/a.jpg","Computer Graphics","text");
 		new Student("o","123.123.123","/home/lavish/Server_ClassRoom_Interaction/Server_ClassRoom_Interaction/Images/a.jpg","Computer Graphics","text");
 		new Student("p","123.123.123","/home/lavish/Server_ClassRoom_Interaction/Server_ClassRoom_Interaction/Images/a.jpg","Computer Graphics","text");
-	*/	
+	*/
 		ServerFrame sf=new ServerFrame();
 		sf.setVisible(true);
 		sf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

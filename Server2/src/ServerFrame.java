@@ -247,9 +247,15 @@ public class ServerFrame extends JFrame implements ActionListener
 		JPanel west2=new JPanel(new GridLayout(1,3,10,10));
 		JPanel east2=new JPanel();
 		east2.setLayout(new GridLayout(1,1,10,10));
-		ImagePanel imagePanel=new ImagePanel("/home/lavish/Server_ClassRoom_Interaction/Server_ClassRoom_Interaction/Images/a.jpg",width/4,100);
-		imagePanel.setSize(100, 100);
-		west2.add(imagePanel);
+		
+		//ImagePanel imagePanel=new ImagePanel("/home/lavish/Server_ClassRoom_Interaction/Server_ClassRoom_Interaction/Images/a.jpg",width/4,100);
+		//imagePanel.setSize(100, 100);
+		ResizeImage frame = new ResizeImage("Images/img.png");
+
+		JPanel imgpanel=frame.getResizeImage();
+
+		
+		west2.add(imgpanel);
 		
 		  
 	    west2.add(new JLabel(student.studentName));
